@@ -1,5 +1,5 @@
 # Ejercicio. 
-import numpy as np 
+import numpy as np
 import pandas as pd 
 
 # Cargando el archivo csv. 
@@ -32,6 +32,27 @@ print(df.tail())   # Últimos 5
 
 print("***Ordenando los datos\n***")
 print(df.sort_values("Model Year", ascending=False))
+
+
+
+columna = df["Model Year"]
+
+print("Media:", columna.mean())
+print("Mediana:", columna.median())
+print("Desviación estándar:", columna.std())
+
+
+
+
+# a. Describe brevemente de qué trata el dataset utilizado
+# Se trata de un Dataset sobre la poblacion de autos electricos
+
+# b. ¿Qué información permite ver el resumen estadístico?
+# El tipo de vehiculos, año, rango electrico (el tiempo de uso por cada carga, etc.)
+
+# c. ¿Qué cambios o tendencias se detectan en la información del dataset?
+# Se nota un incremento en modelos recientes (2020–2025) y más autos con mayores rangos eléctricos.
+
 
 
 
