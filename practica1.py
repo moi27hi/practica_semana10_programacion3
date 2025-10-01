@@ -53,6 +53,8 @@ print("Desviación estándar:", columna.std())
 # c. ¿Qué cambios o tendencias se detectan en la información del dataset?
 # Se nota un incremento en modelos recientes (2020–2025) y más autos con mayores rangos eléctricos.
 
+# 
+
 
 
 
