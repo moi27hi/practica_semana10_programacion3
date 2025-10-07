@@ -26,5 +26,10 @@ print(f"Media: {archivo['popularity'].mean()}")
 print(f"Mediana: {archivo['popularity'].median()}")
 print(f"Varianza: {archivo['popularity'].var()}")
 print(f"Desviacion estandar: {archivo['popularity'].std()}")
-print(f"Popularidad mas alta: {archivo['popularity'].min()}")
-print(f"Popularidad mas baja: {archivo['popularity'].max()}")
+print(f"Popularidad mas alta: {archivo['popularity'].max()}")
+print(f"Popularidad mas baja: {archivo['popularity'].min()}")
+
+
+
+
+
