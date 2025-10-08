@@ -5,7 +5,7 @@ categorias = ["O tazas","1 taza", "2 tazas", "4 tazas"]
 valores = [5, 1, 2, 2]
 
 # Crear gráfico de barras
-plt.bar(categorias, valores, color="Green")
+plt.bar(categorias, valores, color="Crimson")
 
 # Personalización
 plt.title("¿Cuántas tazas de cafe tomas al día?")
